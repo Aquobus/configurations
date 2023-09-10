@@ -43,3 +43,5 @@ For reloading p10k and loading changes maded, use
 ```
 p10k reload
 ```
+
+# NEOVIM INSTALLATION AND CONFIG
