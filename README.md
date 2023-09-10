@@ -6,22 +6,27 @@ Use use these commands in the following order
 ```
 sudo apt install zsh;
 ```
+If you haven't git, you should run command next
 ```
-sudo apt install git wget // if you haven't git
+sudo apt install git wget
 ```
+Next command changes your default shell
 ```
-chsh -s $(which zsh) // changes your default shell
+chsh -s $(which zsh) 
 ```
+Reboot your PC for confirm changes
 ```
-reboot // reboot your PC for confirming changes
+reboot
 ```
-
 ```
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 ```
+Copying template of oh-my-zsh file to your home catalogue
 ```
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc // copying template of oh-my-zsh file to your home catalogue
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
+
+For confirming any changes in .zshrc file, you should use command ```source ~/.zshrc```
 
 # P10K installation
 For p10k installation, you should use next commands in terminal:
