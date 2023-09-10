@@ -45,3 +45,4 @@ p10k reload
 ```
 
 # NEOVIM INSTALLATION AND CONFIG
+coming soon...
